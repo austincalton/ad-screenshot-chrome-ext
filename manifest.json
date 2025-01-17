@@ -1,14 +1,10 @@
 {
   "name": "Ad Screenshot Generator",
-  "action": {},
-  "manifest_version": 3,
-  "version": "0.1",
   "description": "Allows user to place ads into the webpage for screenshot generation.",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  }
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting", "activeTab"]
 }
